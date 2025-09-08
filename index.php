@@ -6,4 +6,6 @@ echo "Welcome to my home!";
 echo "Mi casa su casa!";
 */
 echo "Hello!";
+$x = 5 /* + 15 */ + 5;
+echo $x;
 ?>
