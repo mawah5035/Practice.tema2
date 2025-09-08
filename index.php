@@ -1,4 +1,4 @@
 <?php
-$txt = "PHP";
-echo "I love $txt!";
+$navn = "Ola";
+echo "<p>Hei, $navn! Velkommen til nettsiden min.</p>";
 ?>
