@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Øving</title>
-</head>
-<body>
-    <?php
-    $alder = 20;
+    <head>
+        <title>Eksempel 1</title>
+    </head>
+    <body>
+        <h3>Eksempel 1</h3>
 
-    if ($alder >= 18) {
-        echo "<p>Du er myndig.</p>";
-    } else {
-        echo "<p>Du er ikke myndig.</p>";
-    }
-    ?>
-</body>
+        <form method="post" action="tema01/eksempler/eksempler-1.php" id="eksempel1" name="eksempel1">
+            Fornavn <input type="text" id="fornavn" name="fornavn" required /> <br />
+            Etternvan <input type="text" id="etternavn" name="etternavn" required /> <br />
+            <input tupe="submit" value=Fortsett id="fortsett" name="fortsett" />
+            <input type="reset" value="Nullstill" name="nullstill" id="nullstill" /> <br /
+        
+        </form>
+    </body>
 </html>
